@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Владимир Добрынин</title>
+
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="wrap" id="top">
+    <main class="cv">
+
+      <section class="block">
+        <div class="card card--header">
+          <div class="header">
+            <img class="avatar" src="./photo.jpg" alt="Фото" />
+            <div class="header__meta">
+              <h1 class="name">Владимир<br/>Добрынин</h1>
+              <p class="tagline">Manual QA-Engineer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="block__title">Стек</h2>
+        <div class="card">
+          <p class="text">
+            Test IT, YandexTracker, Devtools, Postman, Charles,
+            Confluence, Swagger, Kibana, Sentry, Grafana,
+            Metabase, DBeaver, MongoDB, Github, GitBash, Kafka UI
+          </p>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="block__title">Доступен</h2>
+        <div class="card">
+          <ul class="rows" role="list">
+            <li class="row">
+              <div class="k">Telegram</div>
+              <div class="v"><a href="https://t.me/Waldemarbl4" target="_blank" rel="noreferrer">@Waldemarbl4</a></div>
+            </li>
+            <li class="row">
+              <div class="k">E-mail</div>
+              <div class="v"><a href="mailto:dvovan96@yandex.ru">dvovan96@yandex.ru</a></div>
+            </li>
+            <li class="row">
+              <div class="k">VK</div>
+              <div class="v"><a href="https://vk.com/valdimarr96" target="_blank" rel="noreferrer">vk.com/valdimarr96</a></div>
+            </li>
+            <li class="row">
+              <div class="k">Git</div>
+              <div class="v"><a href="https://github.com/Reliqum" target="_blank" rel="noreferrer">github.com/Reliqum</a></div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="block">
+        <div class="media-actions">
+          <audio class="player" controls>
+            <source src="./Syberian_Beast_-_Wien.mp3" type="audio/mpeg">
+            <p>Ваш браузер не поддерживает аудио.</p>
+          </audio>
+
+          <div class="credo">
+            <button type="button" class="button-link">Кредо</button>
+            <p class="note">Нажмите кнопку, чтобы увидеть кредо.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <span>© <span id="y"></span> Владимир Добрынин. Все права защищены</span>
+        <a href="#top">Наверх</a>
+      </footer>
+
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+  <script src="js.js"></script>
+</body>
+</html>
